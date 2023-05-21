@@ -1,0 +1,11 @@
+@unpublished{BoNeYu23,
+  TITLE = {{Beating binary powering for polynomial matrices}},
+  AUTHOR = {Bostan, Alin and Neiger, Vincent and Yurkevich, Sergey},
+  URL = {https://hal.inria.fr/hal-03979664},
+  NOTE = {Accepted for publication in ISSAC'23},
+  YEAR = {2023},
+  MONTH = Feb,
+  PDF = {https://hal.inria.fr/hal-03979664/file/BoNeYu23.pdf},
+  HAL_ID = {hal-03979664},
+  HAL_VERSION = {v1},
+}

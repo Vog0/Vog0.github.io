@@ -1,0 +1,11 @@
+@article{Yurkevich21,
+  TITLE = {The art of algorithmic guessing in gfun},
+  AUTHOR = {Yurkevich, Sergey},
+  URL = {https://doi.org/10.5206/mt.v2i1.14421},
+  DOI = {doi.org/10.5206/mt.v2i1.14421},
+  journal = {Maple Transactions},
+  number = {1},
+  volume = {2},
+  YEAR = {2022},
+  pages = {14421:1--14421:19}
+}

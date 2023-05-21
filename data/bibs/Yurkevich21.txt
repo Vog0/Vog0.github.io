@@ -1,0 +1,16 @@
+@incollection {Yurkevich21,
+    AUTHOR = {Yurkevich, Sergey},
+     TITLE = {Diagonal representation of algebraic power series: a glimpse
+              behind the scenes},
+ BOOKTITLE = {Transcendence in algebra, combinatorics, geometry and number
+              theory},
+    SERIES = {Springer Proc. Math. Stat.},
+    VOLUME = {373},
+     PAGES = {309--339},
+ PUBLISHER = {Springer, Cham},
+      YEAR = {2021},
+   MRCLASS = {13F25},
+  MRNUMBER = {4378981},
+       DOI = {10.1007/978-3-030-84304-5\_13},
+       URL = {https://doi.org/10.1007/978-3-030-84304-5_13},
+}

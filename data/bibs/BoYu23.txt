@@ -1,0 +1,11 @@
+@article{BoYu23,
+title = {Fast computation of the N-th term of a q-holonomic sequence and applications},
+journal = {Journal of Symbolic Computation},
+volume = {115},
+pages = {96-123},
+year = {2023},
+issn = {0747-7171},
+doi = {https://doi.org/10.1016/j.jsc.2022.07.008},
+author = {Alin Bostan and Sergey Yurkevich},
+keywords = {Algorithms, Complexity, -factorial, -holonomic sequences, Polynomial evaluation},
+}

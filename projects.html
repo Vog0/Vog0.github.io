@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Me and my work</title>
+		<link rel="icon" href="images/logo.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="#" class="logo"><strong>My </strong>projects</a>
+								<ul class="icons">
+									<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> //-->
+									<li><a href="https://github.com/Vog0" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									<li><a href="https://www.facebook.com/sergey.yurkevich" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<!-- <li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li> //-->
+									<li><a href="https://www.instagram.com/v0g0/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<!-- <li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> //-->
+									<li><a href="https://www.linkedin.com/in/sergey-yurkevich-8b73b2159/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>My Projects</h1>
+									</header>
+								
+									<p>This site contains a selected number of projects I did (and most probably never completely finished) 
+										and am currently working on. It is not complete and gets updated (hopefully) regularly. </p>
+									</section>
+								
+									<section id="map" class="wrapper">
+										<div class="inner">
+											<h2 class="major">Map of Vienna (joint project with Jakob Steininger)</h2>
+											<p>Imagine a city. Given a location in it, a natural question is how centrally located it is? Clearly, one may take the 
+											Euclidean distance from the location to the city center, however this hardly answers the question: in the real world
+											the fastest path is not the "beeline" of the two points. We are restricted by houses, roads, traffic, etc. This leads 
+											to the investigation of the "central" locations if the protagonist is <em>walking</em> or <em>driving</em>. In my eyes,
+											even more interesting, is the question for such locations if public transport is allowed. I live in Vienna, therefore
+											my task is:
+											<blockquote>Visualize the minimal time needed to get by public transport and walking from any point in Vienna to its city center Stephansplatz. </blockquote>
+											</p>
+											<p> A detailed map of all public transport of Vienna is 
+											available  <a href="https://www.wienerlinien.at/media/files/2020/tagnetz_370465.pdf">here</a> 
+											at <a href="https://www.wienerlinien.at/">the official Website of Wiener Linien</a>, the company running most of the public transit network in the city.
+											</p>
+											<p> In order to deduce the time required to get from A to B by public transport it is necessary to use a good API. Even though
+											Wiener Linien and Google provide such services, it turned out that the simplest way is to use 
+											<a href="https://www.microsoft.com/en-us/maps/choose-your-bing-maps-api">Microsoft Bing Maps</a>. Indeed, the following function
+											was easily implemented and consists of just a few lines of Python code: <code>origin2time(origins, destination)</code>. 
+											It gets as input a list of origins and a destination (as coordinates) and outputs a list of minutes needed to get from each origin to the destination. For example,
+											<pre><code>
+origin1 = (48.219474,16.367809)      		#Faculty of Mathematics
+origin2 = (48.214839, 16.406007)     		#University of Economics and Business
+destination = (48.208821, 16.372493) 		#Stephansplatz
+origin2time([origin1, origin2],destination)
+											</code></pre>
+											outputs <code>[11,18]</code>, meaning that it takes 11 minutes to get from Faculty of Mathematics to Stephansplatz and 18 minutes from the 
+											University of Economics and Business to the same destination by public transport.
+											</p>
+											<p> 
+											We laid a 420x350 grid over the map of Vienna, which turns out to be a rectangle with proportions approximately 6:5. This means 
+											that a square of this grid corresponds to roughly a 50x50 meters square in real life. We ran the function <code>origin2time(origins, destination)</code>
+											in batches of 50 and created a dictionary with keys <code>(i,j)</code> standing for the indices in the grid and self-explanatory values 
+											<code>(x_coordinate,y_coordinate, time)</code>. Here are the first elements in the dictionary:
+											<pre><code>
+(0, 0): (48.11949721989749, 16.249281367211044, 72),
+(0, 1): (48.11999746291627, 16.249281367211044, 72),
+(0, 2): (48.12049770593504, 16.249281367211044, 61),
+(0, 3): (48.120997948953814, 16.249281367211044, 61),
+(0, 4): (48.121498191972584, 16.249281367211044, 60),
+(0, 5): (48.12199843499136, 16.249281367211044, 59),
+(0, 6): (48.12249867801014, 16.249281367211044, 59),
+(0, 7): (48.12299892102891, 16.249281367211044, 58),
+											</code></pre>
+											</p>
+											<p> Finally, it remains to visualize the findings. Here are two pictures:
+											<div class="box alt">
+														<div class="row gtr-uniform">
+															<div class="col-6"><span class="image fit"><img src="images/maps/full.png" alt="" /></span></div>
+															<div class="col-6"><span class="image fit"><img src="images/maps/added.jpg" alt="" /></span></div>
+														</div>
+											</div>
+											Believe it or not, there are more than 50 colors in each of these images. All points which correspond to a time of more 
+											than 55 minutes are marked red and the most central points are green. Blue indicates that no path was found.
+											Everything in between is a scale between these colors. As indicated before, the resolution of the pictures is 420x350 = 147000 pixels.
+											</p>
+											<p>
+											The picture on the right is an overlay of the left one and a simple map of public transport in Vienna. Note that metro stations are, as expected, centers
+											of green blobs.  But not only they: we clearly see where train stations are on the south-west and also recognize tram stations on the west. 
+											Feel free to investigate the images further! 
+											</p>
+											<p><span class="image left"><img src="images/maps/large_full.png" alt="" /></span>Here is a zoomed out picture, in which one clearly sees more train 
+											stations and also the airport. As mentioned, the color blue stands for points from which no reasonable public transport path to the city center was 
+											found. </br> </br> <br>
+											There are still many things to do in this project. For example, the color scale which is chosen now is suboptimal, since transition from green to red 
+											looks very fast. Another task would be do the same picture with a bunch of other destinations and compare them. Finally, we should explore other cities. 
+											<br> <br> </p>
+									</section>
+									<section id="rupert" class="wrapper">
+										<div class="inner">
+											<h2 class="major">Algorithmic approach to Rupert's problem (joint project with Jakob Steininger)</h2>
+											<div class="box alt">
+												<div class="row gtr-uniform">
+													<div class="col-6"><span class="image fit"><img src="images/rupert/TID.jpg" alt="" /></span></div>
+													<div class="col-6"><span class="image fit"><img src="images/rupert/IMG43.JPG" alt="" /></span></div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section id="ee" class="wrapper">
+										<div class="inner">
+											<h2 class="major">Endless Engines - Vincent's Volitation</h2>
+											<div class="box alt">
+												I participated at the online <a href = "https://youtu.be/L-v7QPjtyaI">Endless Engines 3D Community Challenge</a> hosted by <a href = "https://www.instagram.com/_pwnisher_/?hl=en">Clinton Jones</a>. 
+												The render I did in the programming language <a href = "https://www.r-project.org/">R</a> using the package <a href = "https://cran.r-project.org/web/packages/rgl/index.html">RGL</a> and then 
+												applied artistic filters to the rendered images. Here is my final product: <br><br>
+												<span class="image fit"><img src="data/EE_Yurkevich.gif" alt="" /></span>
+												If you are interested in how R can be used for rendering, you can download <a href="data/myrender.R">this file</a> to get started.
+											</div>
+										</div>
+									</section>									
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+				<div id="sidebar">
+					<div class="inner">
+
+						<!-- 
+							<section id="search" class="alt">
+								<form method="post" action="#">
+									<input type="text" name="query" id="query" placeholder="Search" />
+								</form>
+							</section>Search -->
+
+						<!-- Menu -->
+						<nav id="menu">
+							<header class="major">
+								<h2>Menu</h2>
+							</header>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="me.html#publications">Publications and preprints</a></li>
+								<li><a href="me.html#presentations">Presentations and talks</a></li>
+								<li><a href="me.html#cv">Curriculum vitae</a></li>
+								<li><a href="me.html#theses">Theses</a></li>
+								<li>
+									<span class="opener">Projects</span>
+									<ul>
+										<li><a href="projects.html#map">A Map of Vienna</a></li>
+										<li><a href="projects.html#rupert">Rupert's problem</a></li>
+										<li><a href="projects.html#ee">Endless engines</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+
+					<!-- Section -->
+						<section>
+							<header class="major">
+								<h2>Some pictures</h2>
+							</header>
+							<div class="mini-posts">
+								<article>
+									<a href="projects.html#map" class="image"><img src="images/maps/added.jpg" alt="" /></a>
+									<p>Visualization of minimal time needed to get by public transport and walking from any point in Vienna to its city center.</p>
+								</article>
+								<article>
+									<a href="projects.html#rupert" class="image"><img src="images/rupert/TID.jpg" alt="" /></a>
+									<p>Proof that the The Truncated Icosidodecahedron is Rupert.</p>
+								</article>
+								<article>
+									<a href="projects.html#ee" class="image"><img src="images/EE.png" alt="" /></a>
+									<p>Endless Engines - Vincent's Volitation</p>
+								</article>
+							</div>
+							<ul class="actions">
+								<li><a href="projects.html" class="button">More</a></li>
+							</ul>
+						</section>
+
+					<!-- Section -->
+						<section>
+							<header class="major">
+								<h2>Get in touch</h2>
+							</header>
+							<ul class="contact">
+								<li class="icon solid fa-envelope"><a href="mailto:sergey.yurkevich@univie.ac.at">sergey.yurkevich@univie.ac.at</a></li>
+								<li class="icon solid fa-briefcase">Oskar-Morgenstern-Platz 1<br> Vienna, 1090, Austria</li>
+								<li class="icon solid fa-hashtag">
+									<font size="+1">
+									<a href="https://www.linkedin.com/in/sergey-yurkevich-8b73b2159/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a> &nbsp; 
+									<a href="https://www.facebook.com/sergey.yurkevich" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>  &nbsp;
+									<a href="https://www.instagram.com/v0g0/" class="icon brands fa-instagram"><span class="label">Instagram</span></a> 
+									</font>
+								</li>
+							</ul>
+						</section>
+
+					<!-- Footer -->
+						<footer id="footer">
+							<p class="copyright">&copy; Sergey Yurkevich. All rights reserved. <br> Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</footer>
+
+				</div>
+			</div>
+
+	</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+</html>
