@@ -43,7 +43,7 @@
 											<h1>Sergey Yurkevich</h1>
 											<p>personal website</p>
 										</header>
-										<p>I am a PhD student in mathematics at the <a href="https://www.universite-paris-saclay.fr/en"> University Paris-Saclay</a> in France and <a href="https://www.univie.ac.at/en/">University of Vienna </a> in Austria. 
+										<p>I am PhD student in mathematics at the <a href="https://www.universite-paris-saclay.fr/en"> University Paris-Saclay</a> in France and <a href="https://www.univie.ac.at/en/">University of Vienna </a> in Austria. 
 										My advisors are <a href="https://mathexp.eu/bostan/"> Alin Bostan</a> and <a href="https://homepage.univie.ac.at/herwig.hauser/"> Herwig Hauser</a> and my interests are integer sequences, differential operators and algebraic power series.
 										I have a master's degree in mathematics and another one in quantitative finance.</p>
 										<ul class="actions">
@@ -81,7 +81,7 @@
 											<span class="icon solid major fa-desktop"></span>
 											<div class="content">
 											<h3>Presentations and talks</h3>
-											<p>The slides for my scientific talks are available here.</p>
+											<p>The slids for my scientific talks are available here.</p>
 											<a href="me.html#presentations" class="button">Have a look</a>
 										</div>
 										</article>
