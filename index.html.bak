@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>Me and my work</title>
-		<link rel="icon" href="images/logo.png">
+		<link rel="icon" href="images/logo.png" type="image/png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -65,7 +65,7 @@
 										<span class="icon solid fa-lightbulb"></span>
 										<div class="content">
 											<h3>Publications and preprints</h3>
-											<p>My list of academic texts is not large, but it will grow.<br></p>
+											<p>My list of academic texts steadily grows.<br></p>
 											<a href="me.html#publications" class="button">Find out more</a>	
 										</div>
 										</article>
