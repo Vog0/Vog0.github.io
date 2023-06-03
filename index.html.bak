@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>Me and my work</title>
-		<link rel="icon" href="images/logo.png" type="image/png">
+		<link rel="icon" href="logo.png" type="image/png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
