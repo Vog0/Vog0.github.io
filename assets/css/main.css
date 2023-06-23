@@ -2277,14 +2277,13 @@ button,
   top: 30%;
   left: 25%;
   width: 50%;
-  height: 25%;
+  height: 28%;
   padding: 5px;
   margin: 50px;
   line-height: 1.8;
   border-radius: 15px;
   cursor: hand;
   cursor: pointer;
-  font-size: xxx-large;
   font-family: sans-serif;
   font-weight: 800;
 }
@@ -2301,7 +2300,7 @@ button,
   display: table;
   margin: 0 auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 170%;
 }
 
 .alertClose {
@@ -2316,32 +2315,9 @@ button,
 
 .info {
   background-color: #FEE;
-  border: 1px solid #EDD;
-  color: #A66;
+  border: 3px solid #EDD;
+  color: #A76;
 }
 
-.success {
-  background-color: #EFE;
-  border: 1px solid #DED;
-  color: #9A9;
-}
-
-.notice {
-  background-color: #EFF;
-  border: 1px solid #DEE;
-  color: #9AA;
-}
-
-.warning {
-  background-color: #FDF7DF;
-  border: 1px solid #FEEC6F;
-  color: #C9971C;
-}
-
-.error {
-  background-color: #FEE;
-  border: 1px solid #EDD;
-  color: #A66;
-}
 
 
