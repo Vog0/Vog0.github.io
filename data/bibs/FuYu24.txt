@@ -1,0 +1,14 @@
+@article {FuYu24,
+    AUTHOR = {F\"urnsinn, Florian and Yurkevich, Sergey},
+     TITLE = {Algebraicity of hypergeometric functions with arbitrary
+              parameters},
+   JOURNAL = {Bull. Lond. Math. Soc.},
+  FJOURNAL = {Bulletin of the London Mathematical Society},
+    VOLUME = {56},
+      YEAR = {2024},
+    NUMBER = {9},
+     PAGES = {2824--2846},
+      ISSN = {0024-6093,1469-2120},
+   MRCLASS = {33C20 (05A15)},
+  MRNUMBER = {4795980},
+}
