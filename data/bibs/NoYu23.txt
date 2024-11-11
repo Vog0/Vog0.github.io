@@ -1,0 +1,13 @@
+@article {NoYu23,
+    AUTHOR = {Notarantonio, Hadrien and Yurkevich, Sergey},
+     TITLE = {Effective algebraicity for solutions of systems of functional
+              equations with one catalytic variable},
+   JOURNAL = {S\'em. Lothar. Combin.},
+  FJOURNAL = {S\'eminaire Lotharingien de Combinatoire},
+    VOLUME = {89B},
+      YEAR = {2023},
+     PAGES = {Art. 13, 12},
+      ISSN = {1286-4889},
+   MRCLASS = {05A15 (05A19)},
+  MRNUMBER = {4659521},
+}
