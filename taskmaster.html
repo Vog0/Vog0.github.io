@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Taskmaster Umschlag</title>
+
+<style>
+  body {
+    background: #1a1a1a;
+    font-family: "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .scene {
+    perspective: 1200px;
+  }
+
+  .hint {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .envelope {
+    width: 480px;
+    height: 330px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  /* Envelope body */
+  .envelope-body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:
+      linear-gradient(135deg, #f5f3e8, #ebe7d9);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    border: 1px solid #d4d0c4;
+  }
+
+  /* Bottom fold illusion */
+  .envelope-body::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: rgba(0,0,0,0.04);
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+  }
+
+  /* Top flap */
+  .flap {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #ede9dc, #e0dccf);
+    clip-path: polygon(0 0, 100% 0, 50% 60%);
+    transform-origin: top;
+    transition: transform 0.9s ease;
+    z-index: 4;
+    border: 1px solid #d4d0c4;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .flap::before {
+    content: "TASKMASTER";
+    font-family: "Courier New", monospace;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d2d2d;
+    letter-spacing: 2px;
+    text-align: center;
+    transform: translateY(-5px);
+  }
+
+  .envelope.open .flap {
+    transform: rotateX(-170deg);
+  }
+
+  /* Wax seal */
+  .seal {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65px;
+    height: 65px;
+    background:
+      radial-gradient(circle at 30% 30%, #dc2626, #991b1b 70%);
+    border-radius: 50%;
+    box-shadow:
+      inset 0 0 12px rgba(0,0,0,0.3),
+      0 8px 15px rgba(0,0,0,0.4);
+    z-index: 6;
+    transition: opacity 0.4s ease;
+  }
+
+  .seal::after {
+    content: "TM";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fef7f7;
+    font-size: 20px;
+    font-family: "Courier New", monospace;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    letter-spacing: 1px;
+  }
+
+  .envelope.open .seal {
+    opacity: 0;
+  }
+
+  /* Letter (fully hidden initially) */
+  .letter {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: 270px;
+    background: #f5f3e8;
+    color: #2d2d2d;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transform: translateY(110%);
+    transition: transform 0.9s ease 0.6s;
+    z-index: 2;
+    opacity: 0;
+    font-family: "Courier New", monospace;
+    border: 1px solid #e0dccf;
+  }
+
+  .envelope.open .letter {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.9s ease 0.6s, opacity 0.5s ease 1.0s;
+  }
+
+  .letter h1 {
+    margin: 0 0 15px;
+    font-size: 28px;
+  }
+
+  .letter p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="scene">
+  <div class="hint">Klicke auf den Umschlag</div>
+
+  <div class="envelope" id="envelope">
+    <div class="envelope-body"></div>
+    <div class="letter">
+      <h1>Deine Aufgabe</h1>
+      <p>
+        Mach ein Selfie mit einem Objekt.<br><br>
+        Das Objekt mit den meisten Google Reviews gewinnt.
+      </p>
+    </div>
+    <div class="flap"></div>
+    <div class="seal"></div>
+  </div>
+</div>
+
+<script>
+  const envelope = document.getElementById("envelope");
+  envelope.addEventListener("click", () => {
+    envelope.classList.toggle("open");
+  });
+</script>
+
+</body>
+</html>
