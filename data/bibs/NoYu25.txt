@@ -1,0 +1,13 @@
+@article {NoYu25,
+    AUTHOR = {Notarantonio, Hadrien and Yurkevich, Sergey},
+     TITLE = {Systems of discrete differential equations, constructive
+              algebraicity of the solutions},
+   JOURNAL = {Combin. Theory},
+  FJOURNAL = {Combinatorial Theory},
+    VOLUME = {5},
+      YEAR = {2025},
+    NUMBER = {2},
+     PAGES = {1--34},
+      ISSN = {2766-1334},
+       DOI = {10.5070/C65265403},
+}
