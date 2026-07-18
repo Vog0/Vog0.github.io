@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Sergey Yurkevich's blog</title>
 		<link>https://yurkevi.ch/blog/</link>
+		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
 			<title>Moonshot AI releases Kimi K3, a 2.8-trillion-parameter open-weight model</title>
