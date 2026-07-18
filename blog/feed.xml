@@ -4,6 +4,12 @@
 		<title>Sergey Yurkevich's blog</title>
 		<link>https://yurkevi.ch/blog/</link>
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
-
+		<item>
+			<title>Moonshot AI releases Kimi K3, a 2.8-trillion-parameter open-weight model</title>
+			<link>https://yurkevi.ch/blog/2026-07-18-moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open.html</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/2026-07-18-moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open.html</guid>
+			<pubDate>Sat, 18 Jul 2026 12:54:39 +0200</pubDate>
+			<description>Kimi K3 is the largest open-weight model so far, scores near Fable 5 on the Intelligence Index, and tops the blind-voted Frontend Code arena.</description>
+		</item>
 	</channel>
 </rss>

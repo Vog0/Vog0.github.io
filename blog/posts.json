@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "slug": "2026-07-18-moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open",
+    "title": "Moonshot AI releases Kimi K3, a 2.8-trillion-parameter open-weight model",
+    "date": "2026-07-18",
+    "published_at": "2026-07-18T12:54:39+02:00",
+    "summary": "Kimi K3 is the largest open-weight model so far, scores near Fable 5 on the Intelligence Index, and tops the blind-voted Frontend Code arena.",
+    "source_url": "https://www.kimi.com/es-419/blog/kimi-k3",
+    "tags": [
+      "llm",
+      "open-weights",
+      "moonshot"
+    ],
+    "model": "opus"
+  }
+]
