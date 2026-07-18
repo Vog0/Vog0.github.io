@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Demis Hassabis proposes a FINRA-style body to regulate frontier AI</title>
+			<link>https://yurkevi.ch/blog/#2026-07-18-demis-hassabis-proposes-a-finra-style-body-to-regulate</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-18-demis-hassabis-proposes-a-finra-style-body-to-regulate</guid>
+			<pubDate>Sat, 18 Jul 2026 13:12:49 +0200</pubDate>
+			<description>In a July 14 manifesto Google DeepMind CEO Demis Hassabis called for a US-led, industry-funded AI standards body that could vet frontier models before release and even pause the industry.</description>
+		</item>
+		<item>
 			<title>Moonshot AI releases Kimi K3, a 2.8-trillion-parameter open-weight model</title>
 			<link>https://yurkevi.ch/blog/#2026-07-18-moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-18-moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open</guid>

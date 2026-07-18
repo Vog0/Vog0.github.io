@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-07-18-demis-hassabis-proposes-a-finra-style-body-to-regulate",
+    "title": "Demis Hassabis proposes a FINRA-style body to regulate frontier AI",
+    "date": "2026-07-18",
+    "published_at": "2026-07-18T13:12:49+02:00",
+    "summary": "In a July 14 manifesto Google DeepMind CEO Demis Hassabis called for a US-led, industry-funded AI standards body that could vet frontier models before release and even pause the industry.",
+    "body_markdown": "[Demis Hassabis published a manifesto](https://x.com/demishassabis/article/2076957440109625718) on July 14 calling for an independent AI standards body modeled on FINRA. Hassabis runs Google DeepMind and shared the 2024 Nobel Prize in Chemistry for AlphaFold. Frontier labs would share models with the body up to 30 days before release, tested for cyber, bio, and deception risks. [He told Axios](https://www.axios.com/2026/07/14/demis-hassabis-ai-regulation-google-deepmind) he wants it US-led, industry-funded, and running before year-end. The body could later require models to pass before US deployment and even [coordinate a slowdown across the labs](https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/). Hassabis says AGI is probably only a few years away. Nadella and Altman back the idea.",
+    "source_url": "https://x.com/demishassabis/article/2076957440109625718",
+    "tags": [
+      "ai-policy",
+      "agi",
+      "deepmind"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-07-18-moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open",
     "title": "Moonshot AI releases Kimi K3, a 2.8-trillion-parameter open-weight model",
     "date": "2026-07-18",
