@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-07-20-nvidia-releases-ardy-an-open-real-time-text-to-motion-model",
+    "title": "Nvidia releases ARDY, an open real-time text-to-motion model",
+    "date": "2026-07-20",
+    "published_at": "2026-07-20T09:24:49+02:00",
+    "summary": "ARDY generates 3D human and humanoid motion from text in real time; code is Apache 2.0 and weights are open, which could help generate synthetic motion data.",
+    "body_markdown": "Nvidia [released ARDY](https://research.nvidia.com/labs/sil/projects/ardy) on July 10. It is an autoregressive diffusion model that generates 3D human and humanoid motion from text prompts and kinematic constraints in real time, streaming frames as it computes them. The [code is Apache 2.0](https://github.com/nv-tlabs/ardy) and the [weights are open](https://huggingface.co/collections/nvidia/ardy) under the NVIDIA Open Model License, which permits commercial use. The work is a SIGGRAPH 2026 paper. Open code plus open weights make it a candidate for generating synthetic motion data.",
+    "source_url": "https://research.nvidia.com/labs/sil/projects/ardy",
+    "tags": [
+      "nvidia",
+      "motion",
+      "open-weights"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-07-20-claude-fable-produces-a-counterexample-to-the-jacobian",
     "title": "Claude Fable produces a counterexample to the Jacobian conjecture",
     "date": "2026-07-20",

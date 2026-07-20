@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Nvidia releases ARDY, an open real-time text-to-motion model</title>
+			<link>https://yurkevi.ch/blog/#2026-07-20-nvidia-releases-ardy-an-open-real-time-text-to-motion-model</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-20-nvidia-releases-ardy-an-open-real-time-text-to-motion-model</guid>
+			<pubDate>Mon, 20 Jul 2026 09:24:49 +0200</pubDate>
+			<description>ARDY generates 3D human and humanoid motion from text in real time; code is Apache 2.0 and weights are open, which could help generate synthetic motion data.</description>
+		</item>
+		<item>
 			<title>Claude Fable produces a counterexample to the Jacobian conjecture</title>
 			<link>https://yurkevi.ch/blog/#2026-07-20-claude-fable-produces-a-counterexample-to-the-jacobian</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-20-claude-fable-produces-a-counterexample-to-the-jacobian</guid>
