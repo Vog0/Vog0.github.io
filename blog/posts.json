@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-07-20-claude-fable-produces-a-counterexample-to-the-jacobian",
+    "title": "Claude Fable produces a counterexample to the Jacobian conjecture",
+    "date": "2026-07-20",
+    "published_at": "2026-07-20T09:05:53+02:00",
+    "summary": "On July 19, 2026, Levent Alpöge announced a Claude Fable counterexample to the Jacobian conjecture: a map with constant Jacobian determinant -2 and no inverse.",
+    "body_markdown": "On July 19, 2026, Harvard mathematician [Levent Alpöge announced](https://x.com/i/status/2079028340955197566) that the [Jacobian conjecture is false](https://en.wikipedia.org/wiki/Jacobian_conjecture), crediting Claude Fable with the counterexample. It is a polynomial map ℂ³ → ℂ³ with constant Jacobian determinant -2 that sends three distinct points to (-1/4, 0, 0), so it has no inverse. The conjecture had been open since Keller posed it in 1939. The announcement was a one-line tweet posted during the World Cup final. The map is elementary to check by hand.",
+    "source_url": "https://en.wikipedia.org/wiki/Jacobian_conjecture",
+    "tags": [
+      "ai",
+      "math",
+      "anthropic"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-07-18-demis-hassabis-proposes-a-finra-style-body-to-regulate",
     "title": "Demis Hassabis proposes a FINRA-style body to regulate frontier AI",
     "date": "2026-07-18",

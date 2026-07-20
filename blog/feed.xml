@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Claude Fable produces a counterexample to the Jacobian conjecture</title>
+			<link>https://yurkevi.ch/blog/#2026-07-20-claude-fable-produces-a-counterexample-to-the-jacobian</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-20-claude-fable-produces-a-counterexample-to-the-jacobian</guid>
+			<pubDate>Mon, 20 Jul 2026 09:05:53 +0200</pubDate>
+			<description>On July 19, 2026, Levent Alpöge announced a Claude Fable counterexample to the Jacobian conjecture: a map with constant Jacobian determinant -2 and no inverse.</description>
+		</item>
+		<item>
 			<title>Demis Hassabis proposes a FINRA-style body to regulate frontier AI</title>
 			<link>https://yurkevi.ch/blog/#2026-07-18-demis-hassabis-proposes-a-finra-style-body-to-regulate</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-18-demis-hassabis-proposes-a-finra-style-body-to-regulate</guid>
