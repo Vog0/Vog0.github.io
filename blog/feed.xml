@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Anthropic releases Claude Opus 5, beating Fable 5 on most benchmarks at half the price</title>
+			<link>https://yurkevi.ch/blog/#2026-07-24-anthropic-releases-claude-opus-5-beating-fable-5-on-most</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-24-anthropic-releases-claude-opus-5-beating-fable-5-on-most</guid>
+			<pubDate>Fri, 24 Jul 2026 22:41:11 +0200</pubDate>
+			<description>Claude Opus 5 shipped July 24, 2026. It outscores Fable 5 on most benchmarks at half the input price, though Fable stays ahead on SWE-bench Pro.</description>
+		</item>
+		<item>
 			<title>Nvidia releases ARDY, an open real-time text-to-motion model</title>
 			<link>https://yurkevi.ch/blog/#2026-07-20-nvidia-releases-ardy-an-open-real-time-text-to-motion-model</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-20-nvidia-releases-ardy-an-open-real-time-text-to-motion-model</guid>

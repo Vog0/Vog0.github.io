@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-07-24-anthropic-releases-claude-opus-5-beating-fable-5-on-most",
+    "title": "Anthropic releases Claude Opus 5, beating Fable 5 on most benchmarks at half the price",
+    "date": "2026-07-24",
+    "published_at": "2026-07-24T22:41:11+02:00",
+    "summary": "Claude Opus 5 shipped July 24, 2026. It outscores Fable 5 on most benchmarks at half the input price, though Fable stays ahead on SWE-bench Pro.",
+    "body_markdown": "[Anthropic released Claude Opus 5](https://www.anthropic.com/news/claude-opus-5) today. It beats Fable 5 on most benchmarks at half the input price, $5 per million tokens against Fable's $10. On Frontier-Bench v0.1 it scores 43.3% to Fable 5's 33.7%. On ARC-AGI-3 it hits 30.2%, three times the next-best model. Fable stays ahead on a few, including [SWE-bench Pro](https://benchlm.ai/benchmarks/swePro), where Opus 5 trails at 79.2% versus 80%. [Decrypt](https://decrypt.co/374305/claude-opus-5-outscores-fable-5-most-benchmarks-half-price) reports it becomes the default model for most Claude subscribers.",
+    "source_url": "https://www.anthropic.com/news/claude-opus-5",
+    "tags": [
+      "llm",
+      "anthropic",
+      "benchmarks"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-07-20-nvidia-releases-ardy-an-open-real-time-text-to-motion-model",
     "title": "Nvidia releases ARDY, an open real-time text-to-motion model",
     "date": "2026-07-20",
