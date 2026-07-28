@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Microsoft releases Mage-Flow, a 4B image generation and editing model</title>
+			<link>https://yurkevi.ch/blog/#2026-07-28-microsoft-releases-mage-flow-a-4b-image-generation-and</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-28-microsoft-releases-mage-flow-a-4b-image-generation-and</guid>
+			<pubDate>Tue, 28 Jul 2026 08:55:49 +0200</pubDate>
+			<description>Mage-Flow generates and edits images at native resolution, handles depth and segmentation, scores 0.90 on GenEval, and ships open under MIT.</description>
+		</item>
+		<item>
 			<title>Anthropic releases Claude Opus 5, beating Fable 5 on most benchmarks at half the price</title>
 			<link>https://yurkevi.ch/blog/#2026-07-24-anthropic-releases-claude-opus-5-beating-fable-5-on-most</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-24-anthropic-releases-claude-opus-5-beating-fable-5-on-most</guid>

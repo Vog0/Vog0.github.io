@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-07-28-microsoft-releases-mage-flow-a-4b-image-generation-and",
+    "title": "Microsoft releases Mage-Flow, a 4B image generation and editing model",
+    "date": "2026-07-28",
+    "published_at": "2026-07-28T08:55:49+02:00",
+    "summary": "Mage-Flow generates and edits images at native resolution, handles depth and segmentation, scores 0.90 on GenEval, and ships open under MIT.",
+    "body_markdown": "[Microsoft released Mage-Flow](https://arxiv.org/abs/2607.19064) last week. It is a 4-billion-parameter native-resolution model for image generation and editing, and it also handles depth, segmentation, Canny, and sketch conditioning. It [scores 0.90 on GenEval](https://aiweekly.co/alerts/microsoft-ships-mage-flow-4b-claims-geneval-lead-on-flux2), first among open models, ahead of FLUX.2 and Qwen-Image at 0.87. The Turbo variant makes a 1024x1024 image in 0.59 seconds on one A100. The weights are on [Hugging Face](https://huggingface.co/microsoft/Mage-Flow) under an MIT license, with code on GitHub.",
+    "source_url": "https://arxiv.org/abs/2607.19064",
+    "tags": [
+      "image-generation",
+      "open-weights",
+      "microsoft"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-07-24-anthropic-releases-claude-opus-5-beating-fable-5-on-most",
     "title": "Anthropic releases Claude Opus 5, beating Fable 5 on most benchmarks at half the price",
     "date": "2026-07-24",
