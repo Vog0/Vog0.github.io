@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-07-28-hkust-s-homie-puts-specific-people-and-objects-into",
+    "title": "HKUST's HOMIE puts specific people and objects into generated video",
+    "date": "2026-07-28",
+    "published_at": "2026-07-28T09:01:09+02:00",
+    "summary": "HOMIE personalizes video with reference humans, products and logos, builds on the open Wan2.1-14B and Wan2.2-14B models, and ships code and weights.",
+    "body_markdown": "HKUST researchers published [HOMIE](https://yiyangcai.github.io/homie-page.github.io/) last week, a method for putting specific people and objects into generated video while keeping their identity. It handles products, logos and multi-view references, and renders text through OCR maps at up to 1280x720. It builds on the open Wan2.1-14B and Wan2.2-14B video models and uses Qwen3-VL-2B-Thinking to read the references, per the [paper](https://arxiv.org/abs/2607.18217). Code and weights are on [GitHub](https://github.com/YIYANGCAI/HOMIE).",
+    "source_url": "https://yiyangcai.github.io/homie-page.github.io/",
+    "tags": [
+      "video-generation",
+      "open-weights",
+      "personalization"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-07-28-microsoft-releases-mage-flow-a-4b-image-generation-and",
     "title": "Microsoft releases Mage-Flow, a 4B image generation and editing model",
     "date": "2026-07-28",

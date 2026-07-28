@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>HKUST's HOMIE puts specific people and objects into generated video</title>
+			<link>https://yurkevi.ch/blog/#2026-07-28-hkust-s-homie-puts-specific-people-and-objects-into</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-28-hkust-s-homie-puts-specific-people-and-objects-into</guid>
+			<pubDate>Tue, 28 Jul 2026 09:01:09 +0200</pubDate>
+			<description>HOMIE personalizes video with reference humans, products and logos, builds on the open Wan2.1-14B and Wan2.2-14B models, and ships code and weights.</description>
+		</item>
+		<item>
 			<title>Microsoft releases Mage-Flow, a 4B image generation and editing model</title>
 			<link>https://yurkevi.ch/blog/#2026-07-28-microsoft-releases-mage-flow-a-4b-image-generation-and</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-07-28-microsoft-releases-mage-flow-a-4b-image-generation-and</guid>
