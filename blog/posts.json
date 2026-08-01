@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-08-01-openai-s-unreleased-astra-model-produces-ten-results-on",
+    "title": "OpenAI's unreleased Astra model produces ten results on open math problems",
+    "date": "2026-08-01",
+    "published_at": "2026-08-01T18:45:31+02:00",
+    "summary": "OpenAI published ten proofs on long-open math and TCS problems today, produced by its unreleased Astra model, each shipped with a Lean 4 formalization.",
+    "body_markdown": "[OpenAI published ten results](https://openai.com/index/ten-advances-in-mathematics/) on open problems in mathematics and theoretical computer science today. An unreleased internal model called Astra produced them, and each problem had seen no progress on the main result for at least a decade. The list includes the first explicit non-sofic group, a disproof of Connes's rigidity conjecture, and an improved asymptotic upper bound for high-dimensional sphere packing. Every result ships with a [Lean 4 formalization](https://github.com/openai/ten-proofs) and a walkthrough of the model's reasoning. [OpenAI puts the total token cost](https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/) at about $2,000 at Sol API rates. No outside mathematician has worked through the arguments yet.",
+    "source_url": "https://openai.com/index/ten-advances-in-mathematics/",
+    "tags": [
+      "openai",
+      "math",
+      "lean"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-07-28-hkust-s-homie-puts-specific-people-and-objects-into",
     "title": "HKUST's HOMIE puts specific people and objects into generated video",
     "date": "2026-07-28",
