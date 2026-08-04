@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>nyra labs releases CrisperWhisper 2.0, a 2B verbatim speech recognition model</title>
+			<link>https://yurkevi.ch/blog/#2026-08-04-nyra-labs-releases-crisperwhisper-2-0-a-2b-verbatim-speech</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-08-04-nyra-labs-releases-crisperwhisper-2-0-a-2b-verbatim-speech</guid>
+			<pubDate>Tue, 04 Aug 2026 09:21:52 +0200</pubDate>
+			<description>CrisperWhisper 2.0 scores 87.8 disfluency F1 across 10 languages, ahead of ElevenLabs Scribe v2 and Microsoft, and the weights download and run offline for free.</description>
+		</item>
+		<item>
 			<title>Eyeline Labs and Netflix release ID-V2V for identity-preserving video restyling</title>
 			<link>https://yurkevi.ch/blog/#2026-08-04-eyeline-labs-and-netflix-release-id-v2v-for-identity</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-08-04-eyeline-labs-and-netflix-release-id-v2v-for-identity</guid>

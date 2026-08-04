@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-08-04-nyra-labs-releases-crisperwhisper-2-0-a-2b-verbatim-speech",
+    "title": "nyra labs releases CrisperWhisper 2.0, a 2B verbatim speech recognition model",
+    "date": "2026-08-04",
+    "published_at": "2026-08-04T09:21:52+02:00",
+    "summary": "CrisperWhisper 2.0 scores 87.8 disfluency F1 across 10 languages, ahead of ElevenLabs Scribe v2 and Microsoft, and the weights download and run offline for free.",
+    "body_markdown": "[nyra labs released CrisperWhisper 2.0](https://nyra-labs.com/crisperwhisper) in late July and posted the [paper](https://arxiv.org/abs/2607.18934) on July 21. It is a 2B-parameter verbatim ASR model that keeps fillers, repetitions and false starts instead of cleaning them up. On their 10-language disfluency benchmark it scores 87.8 F1, ahead of ElevenLabs Scribe v2 at 79.2 and Microsoft MAI-Transcribe-1.5 at 77.5. Mean word-boundary error is 29.6 ms on TIMIT.\n\nThe [weights are on Hugging Face](https://huggingface.co/nyralabs/CrisperWhisper2.0_large), free to download and run offline. The stronger Pro variant scores 93.5 F1 but is not part of the free download.",
+    "source_url": "https://nyra-labs.com/crisperwhisper",
+    "tags": [
+      "asr",
+      "open-weights",
+      "speech"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-08-04-eyeline-labs-and-netflix-release-id-v2v-for-identity",
     "title": "Eyeline Labs and Netflix release ID-V2V for identity-preserving video restyling",
     "date": "2026-08-04",
