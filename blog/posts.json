@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-08-04-eyeline-labs-and-netflix-release-id-v2v-for-identity",
+    "title": "Eyeline Labs and Netflix release ID-V2V for identity-preserving video restyling",
+    "date": "2026-08-04",
+    "published_at": "2026-08-04T09:16:42+02:00",
+    "summary": "ID-V2V restyles a video's background and lighting from a single edited keyframe while holding faces, expressions and lip sync fixed. Weights and ComfyUI support are out.",
+    "body_markdown": "[Eyeline Labs and Netflix released ID-V2V](https://eyeline-labs.github.io/ID-V2V/) in July. It takes a source video and one restyled keyframe, then propagates the new background, lighting and style across the clip while keeping faces, expressions, gaze and lip sync fixed. The [paper](https://arxiv.org/abs/2607.22830) reports 0.701 AdaFace identity similarity against 0.402 to 0.529 for the baselines.\n\nIt builds on VACE and Wan 2.1, and the [weights are on Hugging Face](https://huggingface.co/Eyeline-Labs/ID-V2V). Kijai added [ComfyUI support](https://comfyui-wiki.com/en/news/2026-07-29-id-v2v-comfyui-support) on July 29.",
+    "source_url": "https://eyeline-labs.github.io/ID-V2V/",
+    "tags": [
+      "video-generation",
+      "synthetic-data",
+      "open-weights"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-08-01-openai-s-unreleased-astra-model-produces-ten-results-on",
     "title": "OpenAI's unreleased Astra model produces ten results on open math problems",
     "date": "2026-08-01",
