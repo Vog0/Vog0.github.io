@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-08-10-tencent-s-hunyuan3d-buffalo-1-0-does-text-to-3d-editing-and",
+    "title": "Tencent's Hunyuan3D-Buffalo 1.0 does text-to-3D, editing and understanding in one model",
+    "date": "2026-08-10",
+    "published_at": "2026-08-10T08:53:01+02:00",
+    "summary": "Tencent published Hunyuan3D-Buffalo 1.0 on August 3: text-to-3D, part-level editing and 3D understanding in one model, trained on 87M samples. Weights are not out.",
+    "body_markdown": "Tencent published [Hunyuan3D-Buffalo 1.0](https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/) on August 3. One model does text-to-3D generation, 3D understanding and instruction-guided editing. Training used an 87M-sample corpus: 50M text-to-3D pairs, 25M understanding samples and 12M editing pairs. On Edit3D-Bench it raises average F1 from 0.2729 to 0.6515 over the strongest baseline, Steer3D, per the [paper](https://arxiv.org/abs/2608.02711). Human raters prefer its text-to-3D output to TRELLIS, Universe3D and Omni123 in 56.6% of cases. The [code and weights](https://github.com/Tencent-Hunyuan/Hunyuan3D-Buffalo1.0) are not out yet.",
+    "source_url": "https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0",
+    "tags": [
+      "3d",
+      "tencent",
+      "generative-models"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-08-04-nyra-labs-releases-crisperwhisper-2-0-a-2b-verbatim-speech",
     "title": "nyra labs releases CrisperWhisper 2.0, a 2B verbatim speech recognition model",
     "date": "2026-08-04",

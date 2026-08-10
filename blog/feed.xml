@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Tencent's Hunyuan3D-Buffalo 1.0 does text-to-3D, editing and understanding in one model</title>
+			<link>https://yurkevi.ch/blog/#2026-08-10-tencent-s-hunyuan3d-buffalo-1-0-does-text-to-3d-editing-and</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-08-10-tencent-s-hunyuan3d-buffalo-1-0-does-text-to-3d-editing-and</guid>
+			<pubDate>Mon, 10 Aug 2026 08:53:01 +0200</pubDate>
+			<description>Tencent published Hunyuan3D-Buffalo 1.0 on August 3: text-to-3D, part-level editing and 3D understanding in one model, trained on 87M samples. Weights are not out.</description>
+		</item>
+		<item>
 			<title>nyra labs releases CrisperWhisper 2.0, a 2B verbatim speech recognition model</title>
 			<link>https://yurkevi.ch/blog/#2026-08-04-nyra-labs-releases-crisperwhisper-2-0-a-2b-verbatim-speech</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-08-04-nyra-labs-releases-crisperwhisper-2-0-a-2b-verbatim-speech</guid>
