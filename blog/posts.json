@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-08-26-z-ai-confirms-ox-alpha-is-glm-5-3-flash-a-320b-open-weight",
+    "title": "Z.ai confirms Ox Alpha is GLM-5.3-Flash, a 320B open-weight multimodal model",
+    "date": "2026-08-26",
+    "published_at": "2026-08-26T17:16:56+02:00",
+    "summary": "Z.ai revealed that the anonymous Ox Alpha model is GLM-5.3-Flash: 320B total, 18B active, MIT weights, 1M-token context and 84.3 on Terminal Bench 2.1.",
+    "body_markdown": "[Z.ai confirmed today](https://z.ai/blog/glm-5.3-flash) that the stealth Ox Alpha model is GLM-5.3-Flash. Ox Alpha appeared free on OpenRouter on August 20 with a 1M-token context window and no named owner. It is a 320B-A18B mixture of experts and natively multimodal. [The weights are on Hugging Face](https://huggingface.co/zai-org/GLM-5.3-Flash) under MIT.\n\nZ.ai reports 84.3 on Terminal Bench 2.1 and 63.4 on DeepSWE, and says the model [runs entirely on Chinese AI chips](https://x.com/Zai_org/status/2092616204787626030). Those are frontier numbers from a Flash-tier open model.",
+    "source_url": "https://z.ai/blog/glm-5.3-flash",
+    "tags": [
+      "llm",
+      "open-weights",
+      "zai"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-08-10-tencent-s-hunyuan3d-buffalo-1-0-does-text-to-3d-editing-and",
     "title": "Tencent's Hunyuan3D-Buffalo 1.0 does text-to-3D, editing and understanding in one model",
     "date": "2026-08-10",

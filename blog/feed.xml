@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Z.ai confirms Ox Alpha is GLM-5.3-Flash, a 320B open-weight multimodal model</title>
+			<link>https://yurkevi.ch/blog/#2026-08-26-z-ai-confirms-ox-alpha-is-glm-5-3-flash-a-320b-open-weight</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-08-26-z-ai-confirms-ox-alpha-is-glm-5-3-flash-a-320b-open-weight</guid>
+			<pubDate>Wed, 26 Aug 2026 17:16:56 +0200</pubDate>
+			<description>Z.ai revealed that the anonymous Ox Alpha model is GLM-5.3-Flash: 320B total, 18B active, MIT weights, 1M-token context and 84.3 on Terminal Bench 2.1.</description>
+		</item>
+		<item>
 			<title>Tencent's Hunyuan3D-Buffalo 1.0 does text-to-3D, editing and understanding in one model</title>
 			<link>https://yurkevi.ch/blog/#2026-08-10-tencent-s-hunyuan3d-buffalo-1-0-does-text-to-3d-editing-and</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-08-10-tencent-s-hunyuan3d-buffalo-1-0-does-text-to-3d-editing-and</guid>
