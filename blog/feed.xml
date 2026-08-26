@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Qwen releases Qwen3.8-Flash-Next, a 125B open-weight preview of Qwen4</title>
+			<link>https://yurkevi.ch/blog/#2026-08-27-qwen-releases-qwen3-8-flash-next-a-125b-open-weight-preview</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-08-27-qwen-releases-qwen3-8-flash-next-a-125b-open-weight-preview</guid>
+			<pubDate>Thu, 27 Aug 2026 00:14:07 +0200</pubDate>
+			<description>Qwen3.8-Flash-Next is open-weight, has 125B parameters with 6B active per token, scores 62.5 on SWE-bench Pro, and previews the Qwen4 architecture.</description>
+		</item>
+		<item>
 			<title>Z.ai confirms Ox Alpha is GLM-5.3-Flash, a 320B open-weight multimodal model</title>
 			<link>https://yurkevi.ch/blog/#2026-08-26-z-ai-confirms-ox-alpha-is-glm-5-3-flash-a-320b-open-weight</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-08-26-z-ai-confirms-ox-alpha-is-glm-5-3-flash-a-320b-open-weight</guid>

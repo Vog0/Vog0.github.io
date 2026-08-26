@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-08-27-qwen-releases-qwen3-8-flash-next-a-125b-open-weight-preview",
+    "title": "Qwen releases Qwen3.8-Flash-Next, a 125B open-weight preview of Qwen4",
+    "date": "2026-08-27",
+    "published_at": "2026-08-27T00:14:07+02:00",
+    "summary": "Qwen3.8-Flash-Next is open-weight, has 125B parameters with 6B active per token, scores 62.5 on SWE-bench Pro, and previews the Qwen4 architecture.",
+    "body_markdown": "[Qwen released Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) yesterday with open weights under the qwen-community-1.0 license. The model has 125B parameters plus 51B of n-gram embeddings and activates 6B per token. Qwen calls it an early preview of the Qwen4 architecture.\n\nIt scores [62.5 on SWE-bench Pro against 53.4 for Claude Opus 4.6 Max](https://officechai.com/ai/qwen-3-8-flash-next-benchmarks/), while Opus stays ahead on Humanity's Last Exam at 40.0 to 35.9. Qwen says [training cost about one-ninth of Qwen3.7-Plus](https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency/). Context is 262,144 tokens natively.",
+    "source_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+    "tags": [
+      "llm",
+      "open-weights",
+      "qwen"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-08-26-z-ai-confirms-ox-alpha-is-glm-5-3-flash-a-320b-open-weight",
     "title": "Z.ai confirms Ox Alpha is GLM-5.3-Flash, a 320B open-weight multimodal model",
     "date": "2026-08-26",
