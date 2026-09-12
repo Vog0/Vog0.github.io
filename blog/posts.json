@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-09-12-openai-claims-finite-time-blowup-for-forced-navier-stokes",
+    "title": "OpenAI claims finite-time blowup for forced Navier-Stokes",
+    "date": "2026-09-12",
+    "published_at": "2026-09-12T14:44:15+02:00",
+    "summary": "OpenAI says an internal model proved blowup for the forced Navier-Stokes equations on September 8, a day after Alpöge and Buckmaster posted the Euler case. Clay still lists the problem as open.",
+    "body_markdown": "[OpenAI announced](https://openai.com/index/navier-stokes-solution/) on September 8 that an internal model proved finite-time blowup for the forced Navier-Stokes equations. That settles alternatives (C) and (D) of Fefferman's official problem statement, not the unforced (A) and (B) that most mathematicians care about. The [Clay Institute still lists the problem as open](https://www.implicator.ai/clay-institute-navier-stokes-openai-proof-claim/).\n\nA day earlier [Alpöge and Buckmaster posted](https://terrytao.wordpress.com/2026/09/07/finite-time-blowup-with-smooth-forcing-term-for-the-incompressible-porous-medium-boussinesq-and-incompressible-euler-equations/) blowup with smooth forcing for Euler, extending the Córdoba and Martínez-Zoroa programme. Both proofs are AI-assisted and formalized in Lean. OpenAI ran about 10,000 agents for 88 hours and 130 billion output tokens, worth roughly $15 million at list API prices.",
+    "source_url": "",
+    "tags": [
+      "math",
+      "openai",
+      "lean"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-08-27-qwen-releases-qwen3-8-flash-next-a-125b-open-weight-preview",
     "title": "Qwen releases Qwen3.8-Flash-Next, a 125B open-weight preview of Qwen4",
     "date": "2026-08-27",
