@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-09-13-tencent-hunyuan-and-sjtu-release-auk-a-1-5b-open-weight",
+    "title": "Tencent Hunyuan and SJTU release AuK, a 1.5B open-weight speech editing model",
+    "date": "2026-09-13",
+    "published_at": "2026-09-13T10:38:42+02:00",
+    "summary": "AuK generates and edits speech from natural-language instructions, scores 2.65 average WER on Seed-TTS-Eval, and ships MIT-licensed with open weights.",
+    "body_markdown": "[Tencent Hunyuan and Shanghai Jiao Tong University released AuK](https://auk-project.github.io/) on September 9. It is a 1.5B open-weight model for speech generation and editing from natural-language instructions. It edits spoken content, emotion, accent, timbre, speaking rate and pitch, and it also handles enhancement and separation. On Seed-TTS-Eval it reaches 2.65 average WER and 0.795 speaker similarity, ahead of Qwen3-TTS at 3.07 and 0.745, per the [technical report](https://arxiv.org/abs/2609.08936). The distilled AuK-Flash runs in 4 steps and is 4.5 times faster. [Code and weights](https://github.com/Tencent-Hunyuan/AuK) are MIT licensed.",
+    "source_url": "https://auk-project.github.io/",
+    "tags": [
+      "speech",
+      "open-weights",
+      "tencent"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-09-12-openai-claims-finite-time-blowup-for-forced-navier-stokes",
     "title": "OpenAI claims finite-time blowup for forced Navier-Stokes",
     "date": "2026-09-12",

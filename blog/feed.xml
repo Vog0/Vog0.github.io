@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Tencent Hunyuan and SJTU release AuK, a 1.5B open-weight speech editing model</title>
+			<link>https://yurkevi.ch/blog/#2026-09-13-tencent-hunyuan-and-sjtu-release-auk-a-1-5b-open-weight</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-09-13-tencent-hunyuan-and-sjtu-release-auk-a-1-5b-open-weight</guid>
+			<pubDate>Sun, 13 Sep 2026 10:38:42 +0200</pubDate>
+			<description>AuK generates and edits speech from natural-language instructions, scores 2.65 average WER on Seed-TTS-Eval, and ships MIT-licensed with open weights.</description>
+		</item>
+		<item>
 			<title>OpenAI claims finite-time blowup for forced Navier-Stokes</title>
 			<link>https://yurkevi.ch/blog/#2026-09-12-openai-claims-finite-time-blowup-for-forced-navier-stokes</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-09-12-openai-claims-finite-time-blowup-for-forced-navier-stokes</guid>
