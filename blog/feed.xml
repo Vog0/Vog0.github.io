@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>VAST AI releases Mira-Scene, single-image reconstruction of editable 3D scenes</title>
+			<link>https://yurkevi.ch/blog/#2026-09-27-vast-ai-releases-mira-scene-single-image-reconstruction-of</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-09-27-vast-ai-releases-mira-scene-single-image-reconstruction-of</guid>
+			<pubDate>Sun, 27 Sep 2026 07:17:58 +0200</pubDate>
+			<description>Mira-Scene reconstructs an editable 3D scene from one image and scores 0.727 3D-IoU on BlendSwap against 0.520 for SAM3D. Code and a checkpoint are public.</description>
+		</item>
+		<item>
 			<title>Tencent Hunyuan and SJTU release AuK, a 1.5B open-weight speech editing model</title>
 			<link>https://yurkevi.ch/blog/#2026-09-13-tencent-hunyuan-and-sjtu-release-auk-a-1-5b-open-weight</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-09-13-tencent-hunyuan-and-sjtu-release-auk-a-1-5b-open-weight</guid>

@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-09-27-vast-ai-releases-mira-scene-single-image-reconstruction-of",
+    "title": "VAST AI releases Mira-Scene, single-image reconstruction of editable 3D scenes",
+    "date": "2026-09-27",
+    "published_at": "2026-09-27T07:17:58+02:00",
+    "summary": "Mira-Scene reconstructs an editable 3D scene from one image and scores 0.727 3D-IoU on BlendSwap against 0.520 for SAM3D. Code and a checkpoint are public.",
+    "body_markdown": "[VAST AI released Mira-Scene](https://vast-eden.ai/?p=mira-scene) last week. It turns a single image into an editable 3D scene where every object is a separate mesh you can move, remove or animate. The [paper](https://arxiv.org/abs/2609.23796) drops sparse pose regression for a Canonical Coordinate Map that sends each object pixel to a surface coordinate in the object's canonical space. On the BlendSwap benchmark it scores 0.727 3D-IoU against 0.520 for SAM3D, trained on only 60K open-source object assets. The [code and the CCM checkpoint](https://github.com/VAST-AI-Research/Mira-Scene) are public. That checkpoint is one stage of the pipeline, not an image-to-mesh model on its own.",
+    "source_url": "https://vast-eden.ai/?p=mira-scene",
+    "tags": [
+      "3d",
+      "computer-vision",
+      "open-weights"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-09-13-tencent-hunyuan-and-sjtu-release-auk-a-1-5b-open-weight",
     "title": "Tencent Hunyuan and SJTU release AuK, a 1.5B open-weight speech editing model",
     "date": "2026-09-13",
