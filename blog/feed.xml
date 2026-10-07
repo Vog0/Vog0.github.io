@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>OpenAI publishes 722 math manuscripts</title>
+			<link>https://yurkevi.ch/blog/#2026-10-07-openai-publishes-722-math-manuscripts</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-10-07-openai-publishes-722-math-manuscripts</guid>
+			<pubDate>Wed, 07 Oct 2026 07:38:25 +0200</pubDate>
+			<description>OpenAI released 722 AI-generated math manuscripts on October 6, including matrix multiplication at exponent 9/4 and integer multiplication below n log n.</description>
+		</item>
+		<item>
 			<title>An AI-generated song with an animation Claude Opus 5.5 wrote as code</title>
 			<link>https://yurkevi.ch/blog/#2026-09-27-an-ai-generated-song-with-an-animation-claude-opus-5-5</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-09-27-an-ai-generated-song-with-an-animation-claude-opus-5-5</guid>

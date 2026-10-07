@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-10-07-openai-publishes-722-math-manuscripts",
+    "title": "OpenAI publishes 722 math manuscripts",
+    "date": "2026-10-07",
+    "published_at": "2026-10-07T07:38:25+02:00",
+    "summary": "OpenAI released 722 AI-generated math manuscripts on October 6, including matrix multiplication at exponent 9/4 and integer multiplication below n log n.",
+    "body_markdown": "[OpenAI published 722 math manuscripts](https://github.com/openai/math) yesterday, grouped into 372 result families. An unreleased internal model produced them, with about three hours of ChatGPT Pro thinking compute per result across roughly 4,000 posed problems. The claims include [matrix multiplication with exponent at most 9/4](https://github.com/openai/math/blob/main/preprints/Matrix-Multiplication-Nine-Fourths-October-2-2026/paper.pdf), [integer multiplication below n log n](https://github.com/openai/math/blob/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026/paper.pdf), [the irrationality exponent of π is 2](https://github.com/openai/math/blob/main/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf), [Catalan's constant is irrational](https://github.com/openai/math/blob/main/preprints/Catalans-constant-is-irrational-September-24-2026/paper.pdf), [deterministic polynomial factorization over prime fields](https://github.com/openai/math/blob/main/preprints/Deterministic-Polynomial-Factorization-over-Prime-Fields-October-4-2026/Deterministic-Polynomial-Factorization-over-Prime-Fields.pdf), and [the circulant Hadamard conjecture](https://github.com/openai/math/tree/main/preprints/The-circulant-Hadamard-conjecture-September-23-2026).\n\nNot all results are verified. Many manuscripts carry no Lean formalization, and OpenAI says those could have issues.",
+    "source_url": "https://github.com/openai/math",
+    "tags": [
+      "ai-for-math",
+      "openai",
+      "proofs"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-09-27-an-ai-generated-song-with-an-animation-claude-opus-5-5",
     "title": "An AI-generated song with an animation Claude Opus 5.5 wrote as code",
     "date": "2026-09-27",
