@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-10-25-tencent-releases-wevisone-vl-2b-and-4b-open-weight",
+    "title": "Tencent releases WeVisOne-VL, 2B and 4B open-weight perception models",
+    "date": "2026-10-25",
+    "published_at": "2026-10-25T10:36:43+01:00",
+    "summary": "Tencent's WeChat Vision team published WeVisOne-VL on October 22: 2B and 4B models doing detection, OCR, segmentation and matting, under Apache 2.0.",
+    "body_markdown": "[Tencent's WeChat Vision team released WeVisOne-VL](https://tencent.github.io/WeVisOne-VL/) on October 22 with no launch post. It ships in 2B and 4B sizes, both built on Qwen3-VL, and covers detection, referring localization, counting, OCR, segmentation and matting in one model. The mechanism is a 9.6M-parameter pixel decoder attached through a single `<OBJ>` token, so masks and alpha mattes come out of plain next-token prediction.\n\nThe [paper](https://arxiv.org/abs/2610.31329) reports 81.8 F1 on RefCOCOg test against 77.6 for the best baseline, and 55.3 on LVIS against 50.7. [Weights and code](https://github.com/Tencent/WeVisOne-VL) are Apache 2.0.",
+    "source_url": "https://tencent.github.io/WeVisOne-VL/",
+    "tags": [
+      "vlm",
+      "open-weights",
+      "tencent"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-10-07-openai-publishes-722-math-manuscripts",
     "title": "OpenAI publishes 722 math manuscripts",
     "date": "2026-10-07",

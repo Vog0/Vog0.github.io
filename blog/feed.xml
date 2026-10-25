@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Tencent releases WeVisOne-VL, 2B and 4B open-weight perception models</title>
+			<link>https://yurkevi.ch/blog/#2026-10-25-tencent-releases-wevisone-vl-2b-and-4b-open-weight</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-10-25-tencent-releases-wevisone-vl-2b-and-4b-open-weight</guid>
+			<pubDate>Sun, 25 Oct 2026 10:36:43 +0100</pubDate>
+			<description>Tencent's WeChat Vision team published WeVisOne-VL on October 22: 2B and 4B models doing detection, OCR, segmentation and matting, under Apache 2.0.</description>
+		</item>
+		<item>
 			<title>OpenAI publishes 722 math manuscripts</title>
 			<link>https://yurkevi.ch/blog/#2026-10-07-openai-publishes-722-math-manuscripts</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-10-07-openai-publishes-722-math-manuscripts</guid>
