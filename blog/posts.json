@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-10-25-underdog-s-bark-3-0-hits-4-94-word-error-in-a-163-mb-speech",
+    "title": "Underdog's Bark 3.0 hits 4.94% word error in a 163 MB speech model",
+    "date": "2026-10-25",
+    "published_at": "2026-10-25T10:40:38+01:00",
+    "summary": "Underdog released Bark 3.0 on October 21: a 163 MB on-device English speech-to-text model that ties NVIDIA's Parakeet at 4.94% average word error rate.",
+    "body_markdown": "[Underdog released Bark 3.0](https://underdog.ai/bark) on October 21, a 0.6B English speech-to-text model in a 163 MB download. It is built from NVIDIA's Parakeet TDT, and the weights are CC-BY 4.0 [on Hugging Face](https://huggingface.co/ConwayResearch/Underdog-Bark-3.0).\n\nIt averages 4.94% word error on the Open ASR Leaderboard's seven English sets, matching Parakeet at 2.51 GB and beating Whisper large-v3's 6.04% at 9.26 GB. On AMI meeting audio it gets 7.82% against Parakeet's 9.42%. It transcribes a minute of audio in under 0.25 seconds on a MacBook. The [claimed number one spot is parity on average, not a win](https://runtimewire.com/article/underdog-bark-3-speech-model).",
+    "source_url": "https://underdog.ai/bark",
+    "tags": [
+      "asr",
+      "on-device",
+      "open-weights"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-10-25-tencent-releases-wevisone-vl-2b-and-4b-open-weight",
     "title": "Tencent releases WeVisOne-VL, 2B and 4B open-weight perception models",
     "date": "2026-10-25",
