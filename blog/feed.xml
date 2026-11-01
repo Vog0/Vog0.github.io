@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Speridlabs releases Idol, an open model that turns one image into a 3D Gaussian splat</title>
+			<link>https://yurkevi.ch/blog/#2026-11-01-speridlabs-releases-idol-an-open-model-that-turns-one-image</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-11-01-speridlabs-releases-idol-an-open-model-that-turns-one-image</guid>
+			<pubDate>Sun, 01 Nov 2026 15:04:03 +0100</pubDate>
+			<description>Idol generates 3D Gaussian splats with up to a million Gaussians from a single image, runs in 7.2 GB of VRAM, and ships under Apache-2.0.</description>
+		</item>
+		<item>
 			<title>Underdog's Bark 3.0 hits 4.94% word error in a 163 MB speech model</title>
 			<link>https://yurkevi.ch/blog/#2026-10-25-underdog-s-bark-3-0-hits-4-94-word-error-in-a-163-mb-speech</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-10-25-underdog-s-bark-3-0-hits-4-94-word-error-in-a-163-mb-speech</guid>

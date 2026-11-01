@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-11-01-speridlabs-releases-idol-an-open-model-that-turns-one-image",
+    "title": "Speridlabs releases Idol, an open model that turns one image into a 3D Gaussian splat",
+    "date": "2026-11-01",
+    "published_at": "2026-11-01T15:04:03+01:00",
+    "summary": "Idol generates 3D Gaussian splats with up to a million Gaussians from a single image, runs in 7.2 GB of VRAM, and ships under Apache-2.0.",
+    "body_markdown": "[Speridlabs released Idol](https://speridlabs.com/research/idol) on October 28. It turns a single image into a 3D Gaussian splat with up to 1,048,576 Gaussians and exports a standard .ply file. Peak memory is 7.2 GB, so it runs on consumer GPUs. In the lab's own benchmark it beats TRELLIS and TripoSplat on SSIM, LPIPS, IoU and CLIP scores for unseen views. One request takes 6.8 seconds on an H100. The [weights](https://huggingface.co/speridlabs/idol) and the [SDK](https://github.com/speridlabs/idol-sdk) are open under Apache-2.0.",
+    "source_url": "https://speridlabs.com/research/idol",
+    "tags": [
+      "3d",
+      "gaussian-splatting",
+      "open-weights"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-10-25-underdog-s-bark-3-0-hits-4-94-word-error-in-a-163-mb-speech",
     "title": "Underdog's Bark 3.0 hits 4.94% word error in a 163 MB speech model",
     "date": "2026-10-25",
