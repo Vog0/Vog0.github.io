@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-11-02-liquid-ai-releases-lfm3-open-weight-2b-models-including-an",
+    "title": "Liquid AI releases LFM3, open-weight 2B models including an omni model and decision models",
+    "date": "2026-11-02",
+    "published_at": "2026-11-02T19:19:36+01:00",
+    "summary": "Liquid AI's LFM3 family has six open-weight models of about 2B parameters, including LFM3-Omni-2B and d1-Omni-2B, which returns calibrated decisions without generating text.",
+    "body_markdown": "[Liquid AI released LFM3](https://www.liquid.ai/blog/lfm3) on October 27. It is a family of six open-weight models, each about 2B parameters. The text model, LFM3-1.7B, fits in about 1 GB at 4-bit and scores 96.66 on IFEval, ahead of Qwen3.5-9B.\n\nThe new idea is the decision model. [d1-Omni-2B](https://huggingface.co/LiquidAI/d1-Omni-2B) is built on LFM3-Omni-2B and takes text, images, video and audio. It generates no tokens. It returns typed answers with calibrated probabilities in one forward pass, in about 5.8 ms per decision on an H100. All [weights are on Hugging Face](https://huggingface.co/collections/LiquidAI/lfm3).",
+    "source_url": "https://www.liquid.ai/blog/lfm3",
+    "tags": [
+      "llm",
+      "open-weights",
+      "on-device"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-11-01-speridlabs-releases-idol-an-open-model-that-turns-one-image",
     "title": "Speridlabs releases Idol, an open model that turns one image into a 3D Gaussian splat",
     "date": "2026-11-01",
