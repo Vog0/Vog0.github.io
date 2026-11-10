@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-11-10-linum-open-sources-p-jit-a-2b-pixel-space-image-model",
+    "title": "Linum open-sources P-JiT, a 2B pixel-space image model trained for $21K",
+    "date": "2026-11-10",
+    "published_at": "2026-11-10T20:52:37+01:00",
+    "summary": "Linum's P-JiT is a 2.18B text-to-image diffusion transformer that works directly on pixels without a VAE. Its full training run cost about $21K of H100 time.",
+    "body_markdown": "On November 4, Linum released [P-JiT](https://www.linum.ai/field-notes/pjit-21k), an experimental text-to-image model that works directly in pixel space. The model is a 2.18B diffusion transformer with no VAE, and it uses 32x32 pixel patches. It builds on the [JiT approach of Li and He](https://arxiv.org/abs/2511.13720). Pretraining and post-training together took 8,415 H100-hours, about $21,038 in total. Linum reports that it converges in 11x fewer samples than their VAE-based v2. The [weights](https://huggingface.co/Linum-AI/pjit-21k) are Apache 2.0, but the model still fails at text rendering and complex scenes.",
+    "source_url": "https://www.linum.ai/field-notes/pjit-21k",
+    "tags": [
+      "image-generation",
+      "diffusion",
+      "open-weights"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-11-02-liquid-ai-releases-lfm3-open-weight-2b-models-including-an",
     "title": "Liquid AI releases LFM3, open-weight 2B models including an omni model and decision models",
     "date": "2026-11-02",

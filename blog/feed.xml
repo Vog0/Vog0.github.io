@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Linum open-sources P-JiT, a 2B pixel-space image model trained for $21K</title>
+			<link>https://yurkevi.ch/blog/#2026-11-10-linum-open-sources-p-jit-a-2b-pixel-space-image-model</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-11-10-linum-open-sources-p-jit-a-2b-pixel-space-image-model</guid>
+			<pubDate>Tue, 10 Nov 2026 20:52:37 +0100</pubDate>
+			<description>Linum's P-JiT is a 2.18B text-to-image diffusion transformer that works directly on pixels without a VAE. Its full training run cost about $21K of H100 time.</description>
+		</item>
+		<item>
 			<title>Liquid AI releases LFM3, open-weight 2B models including an omni model and decision models</title>
 			<link>https://yurkevi.ch/blog/#2026-11-02-liquid-ai-releases-lfm3-open-weight-2b-models-including-an</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-11-02-liquid-ai-releases-lfm3-open-weight-2b-models-including-an</guid>
