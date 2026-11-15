@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>SplatAnything builds 3D Gaussian splats from images or video frames in one pass</title>
+			<link>https://yurkevi.ch/blog/#2026-11-15-splatanything-builds-3d-gaussian-splats-from-images-or</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-11-15-splatanything-builds-3d-gaussian-splats-from-images-or</guid>
+			<pubDate>Sun, 15 Nov 2026 10:45:26 +0100</pubDate>
+			<description>SplatAnything from Zhejiang University's zju3dv group turns a set of images into a 3D Gaussian splat in one forward pass. One model handles objects, rooms, streets and aerial scenes.</description>
+		</item>
+		<item>
 			<title>Linum open-sources P-JiT, a 2B pixel-space image model trained for $21K</title>
 			<link>https://yurkevi.ch/blog/#2026-11-10-linum-open-sources-p-jit-a-2b-pixel-space-image-model</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-11-10-linum-open-sources-p-jit-a-2b-pixel-space-image-model</guid>

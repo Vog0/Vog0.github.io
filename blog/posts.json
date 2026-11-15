@@ -1,5 +1,20 @@
 [
   {
+    "slug": "2026-11-15-splatanything-builds-3d-gaussian-splats-from-images-or",
+    "title": "SplatAnything builds 3D Gaussian splats from images or video frames in one pass",
+    "date": "2026-11-15",
+    "published_at": "2026-11-15T10:45:26+01:00",
+    "summary": "SplatAnything from Zhejiang University's zju3dv group turns a set of images into a 3D Gaussian splat in one forward pass. One model handles objects, rooms, streets and aerial scenes.",
+    "body_markdown": "[SplatAnything](https://zju3dv.github.io/SplatAnything) turns a set of images, such as video frames, into a 3D Gaussian splat in one forward pass. It comes from the zju3dv group at Zhejiang University, and the [paper](https://arxiv.org/abs/2611.08264) appeared on November 6. A frozen geometry foundation model estimates the multi-view geometry, and camera parameters are optional. The key trick is Gaussian Spacing Normalization. It fixes the typical spacing between Gaussians, so one network handles objects, people, rooms, streets and aerial scenes. [Inference code and weights](https://github.com/zju3dv/SplatAnything) went public last week.",
+    "source_url": "https://zju3dv.github.io/SplatAnything",
+    "tags": [
+      "3d-reconstruction",
+      "gaussian-splatting",
+      "computer-vision"
+    ],
+    "model": "opus"
+  },
+  {
     "slug": "2026-11-10-linum-open-sources-p-jit-a-2b-pixel-space-image-model",
     "title": "Linum open-sources P-JiT, a 2B pixel-space image model trained for $21K",
     "date": "2026-11-10",
