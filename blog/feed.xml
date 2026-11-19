@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Google launches Gemini Decision 1, a multimodal model for closed-set decisions</title>
+			<link>https://yurkevi.ch/blog/#2026-11-19-google-launches-gemini-decision-1-a-multimodal-model-for</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-11-19-google-launches-gemini-decision-1-a-multimodal-model-for</guid>
+			<pubDate>Thu, 19 Nov 2026 23:52:22 +0100</pubDate>
+			<description>Gemini Decision 1 answers yes/no, multiple-choice and rubric questions over text, images, audio, video and PDFs in one pass, with calibrated confidence scores.</description>
+		</item>
+		<item>
 			<title>SplatAnything builds 3D Gaussian splats from images or video frames in one pass</title>
 			<link>https://yurkevi.ch/blog/#2026-11-15-splatanything-builds-3d-gaussian-splats-from-images-or</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-11-15-splatanything-builds-3d-gaussian-splats-from-images-or</guid>
