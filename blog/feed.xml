@@ -6,6 +6,13 @@
 		<atom:link href="https://yurkevi.ch/blog/feed.xml" rel="self" type="application/rss+xml" />
 		<description>Short notes on AI models, tools and research worth knowing about.</description>
 		<item>
+			<title>Apple releases Depth Pro 2 for metric depth from images and video</title>
+			<link>https://yurkevi.ch/blog/#2026-11-25-apple-releases-depth-pro-2-for-metric-depth-from-images-and</link>
+			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-11-25-apple-releases-depth-pro-2-for-metric-depth-from-images-and</guid>
+			<pubDate>Wed, 25 Nov 2026 18:24:29 +0100</pubDate>
+			<description>Apple's Depth Pro 2 gives sharp, metric, temporally consistent depth for video at native resolution. Code and weights are public.</description>
+		</item>
+		<item>
 			<title>Google launches Gemini Decision 1, a multimodal model for closed-set decisions</title>
 			<link>https://yurkevi.ch/blog/#2026-11-19-google-launches-gemini-decision-1-a-multimodal-model-for</link>
 			<guid isPermaLink="true">https://yurkevi.ch/blog/#2026-11-19-google-launches-gemini-decision-1-a-multimodal-model-for</guid>
