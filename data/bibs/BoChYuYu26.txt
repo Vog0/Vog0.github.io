@@ -1,0 +1,10 @@
+@article {BoChYuYu26,
+    AUTHOR = {Bostan, Alin and Chen, J. and Yu, T. and Yurkevich, Sergey},
+     TITLE = {Isoperimetric ratios of toroidal {D}upin cyclides},
+   JOURNAL = {Differential Geom. Appl.},
+  FJOURNAL = {Differential Geometry and its Applications},
+    VOLUME = {105},
+      YEAR = {2026},
+     PAGES = {102451},
+       DOI = {10.1016/j.difgeo.2026.102451},
+}
